@@ -1,0 +1,6 @@
+﻿  3.c
+D:\Users\IvanK\Desktop\C labs\6 pack\3\3.c(16,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\6 pack\3\3.c(36,1): warning C4047: инициализация: "char **" отличается по уровням косвенного обращения от "char *"
+D:\Users\IvanK\Desktop\C labs\6 pack\3\3.c(40,1): warning C4047: инициализация: "char" отличается по уровням косвенного обращения от "void *"
+D:\Users\IvanK\Desktop\C labs\6 pack\3\3.c(12): warning C4716: create_new_str: должна возвращать значение
+  3.vcxproj -> D:\Users\IvanK\Desktop\C labs\6 pack\3\x64\Debug\3.exe

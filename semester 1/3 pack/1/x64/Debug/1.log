@@ -1,0 +1,5 @@
+﻿  1.c
+D:\Users\IvanK\Desktop\C labs\3 pack\1\1.c(11,22): warning C4013: malloc: нет определения; предполагается "extern" с возвратом типа "int"
+D:\Users\IvanK\Desktop\C labs\3 pack\1\1.c(11,45): warning C4312: приведение типов: преобразование из "int" в "int *" большего размера
+D:\Users\IvanK\Desktop\C labs\3 pack\1\1.c(29,5): warning C4013: free: нет определения; предполагается "extern" с возвратом типа "int"
+  1.vcxproj -> D:\Users\IvanK\Desktop\C labs\3 pack\1\x64\Debug\1.exe

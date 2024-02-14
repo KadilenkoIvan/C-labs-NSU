@@ -1,0 +1,9 @@
+﻿  1.c
+D:\Users\IvanK\Desktop\C labs\9 pack\1\1.c(35,9): warning C4033: "merge" должен возвращать значение
+D:\Users\IvanK\Desktop\C labs\9 pack\1\1.c(43,5): warning C4033: "merge" должен возвращать значение
+D:\Users\IvanK\Desktop\C labs\9 pack\1\1.c(59,23): warning C4047: функция: "int" отличается по уровням косвенного обращения от "void *"
+D:\Users\IvanK\Desktop\C labs\9 pack\1\1.c(59,19): warning C4024: memset: различные типы для формального и фактического параметров 2
+D:\Users\IvanK\Desktop\C labs\9 pack\1\1.c(60,23): warning C4047: функция: "int" отличается по уровням косвенного обращения от "void *"
+D:\Users\IvanK\Desktop\C labs\9 pack\1\1.c(60,19): warning C4024: memset: различные типы для формального и фактического параметров 2
+D:\Users\IvanK\Desktop\C labs\9 pack\1\1.c(44): warning C4716: merge: должна возвращать значение
+  1.vcxproj -> D:\Users\IvanK\Desktop\C labs\9 pack\1\x64\Debug\1.exe

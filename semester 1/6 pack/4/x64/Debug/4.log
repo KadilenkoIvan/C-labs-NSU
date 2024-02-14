@@ -1,0 +1,3 @@
+﻿  4.c
+D:\Users\IvanK\Desktop\C labs\6 pack\4\4.c(55,10): warning C4101: str: неиспользованная локальная переменная
+  4.vcxproj -> D:\Users\IvanK\Desktop\C labs\6 pack\4\x64\Debug\4.exe

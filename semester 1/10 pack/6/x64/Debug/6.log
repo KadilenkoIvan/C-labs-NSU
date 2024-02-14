@@ -1,0 +1,4 @@
+﻿  6.c
+D:\Users\IvanK\Desktop\C labs\10 pack\6\6.c(62,18): warning C4047: функция: "int" отличается по уровням косвенного обращения от "void *"
+D:\Users\IvanK\Desktop\C labs\10 pack\6\6.c(62,14): warning C4024: memset: различные типы для формального и фактического параметров 2
+  6.vcxproj -> D:\Users\IvanK\Desktop\C labs\10 pack\6\x64\Debug\6.exe

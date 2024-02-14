@@ -1,0 +1,3 @@
+﻿  3_misha.c
+D:\Users\IvanK\Desktop\C labs\6 pack\3_misha\3_misha.c(40,41): warning C4047: !=: "int" отличается по уровням косвенного обращения от "void *"
+  3_misha.vcxproj -> D:\Users\IvanK\Desktop\C labs\6 pack\3_misha\x64\Debug\3_misha.exe

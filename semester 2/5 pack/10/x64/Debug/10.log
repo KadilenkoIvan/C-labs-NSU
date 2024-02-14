@@ -1,0 +1,8 @@
+﻿  10.c
+D:\Users\IvanK\Desktop\C labs\5 pack\10\10.c(144,65): warning C4090: функция: разные квалификаторы "const"
+D:\Users\IvanK\Desktop\C labs\5 pack\10\10.c(144,65): warning C4113: "int (__cdecl *)(void *,void *)" отличается в списках параметров от "_CoreCrtNonSecureSearchSortCompareFunction"
+D:\Users\IvanK\Desktop\C labs\5 pack\10\10.c(223,51): warning C4090: функция: разные квалификаторы "const"
+D:\Users\IvanK\Desktop\C labs\5 pack\10\10.c(223,51): warning C4113: "int (__cdecl *)(void *,void *)" отличается в списках параметров от "_CoreCrtNonSecureSearchSortCompareFunction"
+D:\Users\IvanK\Desktop\C labs\5 pack\10\10.c(49): warning C4715: comp: значение возвращается не при всех путях выполнения
+D:\Users\IvanK\Desktop\C labs\5 pack\10\10.c(61): warning C4715: comp_for_V: значение возвращается не при всех путях выполнения
+  10.vcxproj -> D:\Users\IvanK\Desktop\C labs\5 pack\10\x64\Debug\10.exe

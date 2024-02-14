@@ -1,0 +1,41 @@
+{
+"array": [
+[[q,1],[w,2],[e,3]],
+[[r,4],[t,5],[y,6]],
+[[u,7],[i,8],[o,9]]
+],
+"boolean": true,
+"color": "#82b92c",
+"null": null,
+"number": 123,
+"object": {
+"a": "b",
+"c": "d",
+"e": [ 5, {"key": -9} ]
+},
+"my string": "Hello World"
+}
+<<<>>>
+4
+"array"
+[2]
+[2]
+[2]
+4
+"object"
+"e"
+[1]
+"key"
+1
+"null"
+1
+"my string"
+1
+"color"
+1
+"array"
+3
+"object"
+"e"
+[1]
+-1

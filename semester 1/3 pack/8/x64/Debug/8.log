@@ -1,0 +1,9 @@
+﻿  8.c
+D:\Users\IvanK\Desktop\C labs\3 pack\8\8.c(10,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\3 pack\8\8.c(36,26): warning C4244: +=: преобразование "double" в "__int64", возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\3 pack\8\8.c(24,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\3 pack\8\8.c(87,11): warning C4477: "scanf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "3" имеет тип "char *(*)[100]"
+D:\Users\IvanK\Desktop\C labs\3 pack\8\8.c(88,68): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char *[100]"
+D:\Users\IvanK\Desktop\C labs\3 pack\8\8.c(88,62): warning C4024: from_notation1_to_ten: различные типы для формального и фактического параметров 1
+D:\Users\IvanK\Desktop\C labs\3 pack\8\8.c(86,9): warning C4101: qwerty: неиспользованная локальная переменная
+  8.vcxproj -> D:\Users\IvanK\Desktop\C labs\3 pack\8\x64\Debug\8.exe

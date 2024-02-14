@@ -1,0 +1,4 @@
+﻿  1.c
+D:\Users\IvanK\Desktop\C labs\2 pack\1\1.c(15,3): warning C4033: "inv" должен возвращать значение
+D:\Users\IvanK\Desktop\C labs\2 pack\1\1.c(22): warning C4715: inv: значение возвращается не при всех путях выполнения
+  1.vcxproj -> D:\Users\IvanK\Desktop\C labs\2 pack\1\x64\Debug\1.exe

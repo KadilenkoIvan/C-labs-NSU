@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_VKI", "3_VKI.vcxproj", "{0F9DA25D-1195-4E37-A3D0-667131571013}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{15D3B38D-9B4A-4067-9CCB-DC0C0295E01A}"
+	ProjectSection(SolutionItems) = preProject
+		input.txt = input.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F9DA25D-1195-4E37-A3D0-667131571013}.Debug|x64.ActiveCfg = Debug|x64
+		{0F9DA25D-1195-4E37-A3D0-667131571013}.Debug|x64.Build.0 = Debug|x64
+		{0F9DA25D-1195-4E37-A3D0-667131571013}.Debug|x86.ActiveCfg = Debug|Win32
+		{0F9DA25D-1195-4E37-A3D0-667131571013}.Debug|x86.Build.0 = Debug|Win32
+		{0F9DA25D-1195-4E37-A3D0-667131571013}.Release|x64.ActiveCfg = Release|x64
+		{0F9DA25D-1195-4E37-A3D0-667131571013}.Release|x64.Build.0 = Release|x64
+		{0F9DA25D-1195-4E37-A3D0-667131571013}.Release|x86.ActiveCfg = Release|Win32
+		{0F9DA25D-1195-4E37-A3D0-667131571013}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {918A730A-7AF1-4019-B84D-7FD650ABDCAD}
+	EndGlobalSection
+EndGlobal

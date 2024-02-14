@@ -1,0 +1,4 @@
+﻿  7_new.cpp
+D:\Users\IvanK\Desktop\C labs\5 pack\7_new\7_new.cpp(16,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\5 pack\7_new\7_new.cpp(38,27): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\5 pack\7_new\7_new.cpp(58,13): error C3861: max: идентификатор не найден

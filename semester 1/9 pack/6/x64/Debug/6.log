@@ -1,0 +1,4 @@
+﻿  6.c
+D:\Users\IvanK\Desktop\C labs\9 pack\6\6.c(16,1): warning C4133: инициализация: несовместимые типы - из "num *" в "unsigned char *"
+D:\Users\IvanK\Desktop\C labs\9 pack\6\6.c(59,29): warning C4020: radix_sort: слишком много фактических параметров
+  6.vcxproj -> D:\Users\IvanK\Desktop\C labs\9 pack\6\x64\Debug\6.exe

@@ -1,0 +1,6 @@
+﻿  2.c
+D:\Users\IvanK\Desktop\C labs\6 pack\2\2.c(50,15): warning C4477: "fprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "__int64"
+D:\Users\IvanK\Desktop\C labs\6 pack\2\2.c(50,15): message : рекомендуется использовать "%lld" в строке форматирования
+D:\Users\IvanK\Desktop\C labs\6 pack\2\2.c(50,15): message : рекомендуется использовать "%Id" в строке форматирования
+D:\Users\IvanK\Desktop\C labs\6 pack\2\2.c(50,15): message : рекомендуется использовать "%I64d" в строке форматирования
+  2.vcxproj -> D:\Users\IvanK\Desktop\C labs\6 pack\2\x64\Debug\2.exe

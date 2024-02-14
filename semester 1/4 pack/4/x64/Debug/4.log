@@ -1,0 +1,4 @@
+﻿  4.cpp
+D:\Users\IvanK\Desktop\C labs\4 pack\4\4.cpp(10,28): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\4 pack\4\4.cpp(49,5): warning C4102: last: неиспользованная метка
+  4.vcxproj -> D:\Users\IvanK\Desktop\C labs\4 pack\4\x64\Debug\4.exe

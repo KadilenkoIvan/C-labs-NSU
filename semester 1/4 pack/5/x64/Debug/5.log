@@ -1,0 +1,6 @@
+﻿  5.c
+D:\Users\IvanK\Desktop\C labs\4 pack\5\5.c(22,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\4 pack\5\5.c(22,40): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\4 pack\5\5.c(55,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\4 pack\5\5.c(51): warning C4716: words_split: должна возвращать значение
+  5.vcxproj -> D:\Users\IvanK\Desktop\C labs\4 pack\5\x64\Debug\5.exe

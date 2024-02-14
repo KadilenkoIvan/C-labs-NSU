@@ -1,0 +1,7 @@
+﻿  8.c
+D:\Users\IvanK\Desktop\C labs\5 pack\8\8.c(16,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\5 pack\8\8.c(38,27): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\5 pack\8\8.c(194,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "size_t"
+D:\Users\IvanK\Desktop\C labs\5 pack\8\8.c(194,12): message : рекомендуется использовать "%zd" в строке форматирования
+D:\Users\IvanK\Desktop\C labs\5 pack\8\8.c(86): warning C4716: minus: должна возвращать значение
+  8.vcxproj -> D:\Users\IvanK\Desktop\C labs\5 pack\8\x64\Debug\8.exe

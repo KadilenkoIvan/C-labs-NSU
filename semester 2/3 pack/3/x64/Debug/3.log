@@ -1,0 +1,4 @@
+﻿  3.c
+D:\Users\IvanK\Desktop\C labs\3 pack\3\3.c(22,12): warning C4013: isspace: нет определения; предполагается "extern" с возвратом типа "int"
+D:\Users\IvanK\Desktop\C labs\3 pack\3\3.c(42,12): warning C4013: isdigit: нет определения; предполагается "extern" с возвратом типа "int"
+  3.vcxproj -> D:\Users\IvanK\Desktop\C labs\3 pack\3\x64\Debug\3.exe

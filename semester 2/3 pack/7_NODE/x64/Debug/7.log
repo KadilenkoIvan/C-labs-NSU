@@ -1,0 +1,7 @@
+﻿  7.c
+D:\Users\IvanK\Desktop\C labs\3 pack\7_NODE\7.c(29,20): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\3 pack\7_NODE\7.c(47,8): warning C4013: isspace: нет определения; предполагается "extern" с возвратом типа "int"
+D:\Users\IvanK\Desktop\C labs\3 pack\7_NODE\7.c(198,8): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\3 pack\7_NODE\7.c(220,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\3 pack\7_NODE\7.c(82): warning C4716: read_value: должна возвращать значение
+  7.vcxproj -> D:\Users\IvanK\Desktop\C labs\3 pack\7_NODE\x64\Debug\7.exe

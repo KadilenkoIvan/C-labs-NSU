@@ -1,0 +1,5 @@
+﻿  13.c
+D:\Users\IvanK\Desktop\C labs\5 pack\13\13.c(158,32): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\5 pack\13\13.c(245,5): warning C4013: memset: нет определения; предполагается "extern" с возвратом типа "int"
+D:\Users\IvanK\Desktop\C labs\5 pack\13\13.c(177): warning C4716: dijkstra: должна возвращать значение
+  13.vcxproj -> D:\Users\IvanK\Desktop\C labs\5 pack\13\x64\Debug\13.exe

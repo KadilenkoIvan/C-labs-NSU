@@ -1,0 +1,3 @@
+quarantine  3 2  2 4 
+DOOMED
+quarantine  6 3  4 7 6 

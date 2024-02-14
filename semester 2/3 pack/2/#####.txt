@@ -1,0 +1,10 @@
+zlid и minizip разные библиотеки
+. . .
+
+input path и скрипт: gcc -c -I zlib -D USE_CRYPT (файлы из минизип)
+ar rcs...
+
+gcc -I zlib/minizip -I zlib -O2 test.c lib1.a lib2.a -O checked_solution
+
+
+gcc -O2 checked_solution test.c lib1.a lib2.a -Izlib/minizip -Izlib -D USE_CRYPT

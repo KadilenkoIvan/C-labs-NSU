@@ -1,0 +1,4 @@
+﻿  10_GLEB.c
+D:\Users\IvanK\Desktop\C labs\5 pack\6\10_GLEB\10_GLEB.c(113,15): warning C4101: k: неиспользованная локальная переменная
+D:\Users\IvanK\Desktop\C labs\5 pack\6\10_GLEB\10_GLEB.c(113,12): warning C4101: p: неиспользованная локальная переменная
+  10_GLEB.vcxproj -> D:\Users\IvanK\Desktop\C labs\5 pack\6\10_GLEB\x64\Debug\10_GLEB.exe

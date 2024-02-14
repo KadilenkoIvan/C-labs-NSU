@@ -1,0 +1,9 @@
+﻿  9_SONIA.c
+D:\Users\IvanK\Desktop\C labs\1 pack\9_SONIA\9_SONIA.c(27,10): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\1 pack\9_SONIA\9_SONIA.c(85,16): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\1 pack\9_SONIA\9_SONIA.c(90,18): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\1 pack\9_SONIA\9_SONIA.c(209,17): warning C4477: "fprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "__int64"
+D:\Users\IvanK\Desktop\C labs\1 pack\9_SONIA\9_SONIA.c(209,17): message : рекомендуется использовать "%lld" в строке форматирования
+D:\Users\IvanK\Desktop\C labs\1 pack\9_SONIA\9_SONIA.c(209,17): message : рекомендуется использовать "%Id" в строке форматирования
+D:\Users\IvanK\Desktop\C labs\1 pack\9_SONIA\9_SONIA.c(209,17): message : рекомендуется использовать "%I64d" в строке форматирования
+  9_SONIA.vcxproj -> D:\Users\IvanK\Desktop\C labs\1 pack\9_SONIA\x64\Debug\9_SONIA.exe

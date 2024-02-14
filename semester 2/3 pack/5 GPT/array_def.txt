@@ -1,0 +1,83 @@
+#include <stdlib.h>
+#include <string.h>
+
+#include "array_decl.h"
+
+//initializes members of [vec] structure for empty array
+void NAME##_init ( NAME * vec ) {
+    vec->n = 0;
+    vec->capacity = 1;
+    vec->arr = malloc(vec->capacity * sizeof(TYPE));
+}
+
+//makes array [vec] empty and frees its array buffer [vec->arr]
+//note: this function can be called many times
+void NAME##_destroy ( NAME * vec ) {
+    free(vec->arr);
+    vec->n = 0;
+    vec->capacity = 0;
+    vec->arr = NULL;
+}
+
+//adds element [value] to the end of array [vec]
+//returns index of the added element
+int NAME##_push ( NAME * vec , TYPE value ) {
+    if (vec->n == vec->capacity) {
+        vec->capacity *= 2;
+        vec->arr = realloc(vec->arr, vec->capacity * sizeof(TYPE));
+    }
+    vec->arr[vec->n] = value;
+    vec->n++;
+    return vec->n - 1;
+}
+
+//removes the last element from array [vec]
+//returns removed element
+TYPE NAME##_pop ( NAME * vec ) {
+    vec->n--;
+    return vec->arr[vec->n];
+}
+
+//ensures that array [vec] has enough storage for [capacity] elements
+//note: address of elements surely won’t change before [vec->n] exceeds capacity
+void NAME##_reserve ( NAME * vec , int capacity ) {
+    if (vec->capacity < capacity) {
+        vec->capacity = capacity;
+        vec->arr = realloc(vec->arr, vec->capacity * sizeof(TYPE));
+    }
+}
+
+//changes number of elements in array [vec] to [newCnt]
+//if the number increases, new elements get value [fill]
+//if the number decreases, some elements at the end are removed
+void NAME##_resize ( NAME * vec , int newCnt , TYPE fill ) {
+    if (vec->n < newCnt) {
+        NAME##_reserve(vec, newCnt);
+        for (int i = vec->n; i < newCnt; i++) {
+            vec->arr[i] = fill;
+        }
+        vec->n = newCnt;
+    } else {
+        vec->n = newCnt;
+        if (vec->capacity >= 2 * vec->n) {
+            vec->capacity = vec->n;
+            vec->arr = realloc(vec->arr, vec->capacity * sizeof(TYPE));
+        }
+    }
+}
+
+//inserts elements [arr[0]], [arr[1]], [arr[2]], ..., [arr[num-1]]
+//in-between elements [vec->arr[where-1]] and [vec->arr[where]]
+//note: the whole array [arr] cannot be part of array [vec]
+//[where] may vary from 0 to [vec->n], [num] can also be zero
+void NAME##_insert ( NAME * vec , int where , TYPE * arr , int num ) {
+    if (num == 0) {
+        return;
+    }
+    NAME##_reserve(vec, vec->n + num);
+    memmove(vec->arr + where + num, vec->arr + where, (vec->n - where) * sizeof(TYPE));
+    memcpy(vec->arr + where, arr, num * sizeof(TYPE));
+    vec->n += num;
+}
+
+//removes elements [vec->arr[k]] for k = [where], [where+1], ..., [where+num

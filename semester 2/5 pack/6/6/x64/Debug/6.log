@@ -1,0 +1,5 @@
+﻿  6.c
+D:\Users\IvanK\Desktop\C labs\5 pack\6\6\6.c(85,16): warning C4047: return: "int" отличается по уровням косвенного обращения от "void *"
+D:\Users\IvanK\Desktop\C labs\5 pack\6\6\6.c(115,38): warning C4133: функция: несовместимые типы - из "Vertex *" в "PathTree *"
+D:\Users\IvanK\Desktop\C labs\5 pack\6\6\6.c(185,47): warning C4133: функция: несовместимые типы - из "PathTree *" в "Vertex *"
+  6.vcxproj -> D:\Users\IvanK\Desktop\C labs\5 pack\6\6\x64\Debug\6.exe

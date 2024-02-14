@@ -1,0 +1,6 @@
+﻿  sample.c
+D:\Users\IvanK\Desktop\C labs\3 pack\5\sample.c(6,1): warning C4005: TYPE: изменение макроопределения
+D:\Users\IvanK\Desktop\C labs\3 pack\5\sample.c(3): message : см. предыдущее определение "TYPE"
+D:\Users\IvanK\Desktop\C labs\3 pack\5\sample.c(7,1): warning C4005: NAME: изменение макроопределения
+D:\Users\IvanK\Desktop\C labs\3 pack\5\sample.c(4): message : см. предыдущее определение "NAME"
+  5.vcxproj -> D:\Users\IvanK\Desktop\C labs\3 pack\5\x64\Debug\5.exe

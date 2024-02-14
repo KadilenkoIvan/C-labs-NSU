@@ -1,0 +1,3 @@
+﻿  авиаперелеты.c
+D:\Users\IvanK\Desktop\C labs\5 pack\13_SONIA\авиаперелеты.c(133,10): warning C4101: arr: неиспользованная локальная переменная
+  13_SONIA.vcxproj -> D:\Users\IvanK\Desktop\C labs\5 pack\13_SONIA\x64\Debug\13_SONIA.exe

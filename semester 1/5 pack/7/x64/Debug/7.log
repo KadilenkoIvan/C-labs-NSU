@@ -1,0 +1,4 @@
+﻿  7.c
+D:\Users\IvanK\Desktop\C labs\5 pack\7\7.c(16,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\5 pack\7\7.c(38,27): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+  7.vcxproj -> D:\Users\IvanK\Desktop\C labs\5 pack\7\x64\Debug\7.exe

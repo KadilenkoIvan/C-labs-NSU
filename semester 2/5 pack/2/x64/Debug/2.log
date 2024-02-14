@@ -1,0 +1,3 @@
+﻿  main.c
+D:\Users\IvanK\Desktop\C labs\5 pack\2\main.c(138,29): warning C4020: my_bfs: слишком много фактических параметров
+  2.vcxproj -> D:\Users\IvanK\Desktop\C labs\5 pack\2\x64\Debug\2.exe

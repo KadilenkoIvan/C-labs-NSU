@@ -1,0 +1,4 @@
+﻿  3.c
+D:\Users\IvanK\Desktop\C labs\9 pack\3\3.c(10,15): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\9 pack\3\3.c(71,12): warning C4475: "printf": модификатор длины "ll" невозможно использовать с символом поля типа "f" в описателе формата
+  3.vcxproj -> D:\Users\IvanK\Desktop\C labs\9 pack\3\x64\Debug\3.exe

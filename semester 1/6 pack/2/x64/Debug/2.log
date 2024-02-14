@@ -1,0 +1,4 @@
+﻿  2.c
+D:\Users\IvanK\Desktop\C labs\6 pack\2\2.c(35): warning C4172: возвращение адреса локальной или временной переменной : str
+D:\Users\IvanK\Desktop\C labs\6 pack\2\2.c(40): warning C4172: возвращение адреса локальной или временной переменной : buf
+  2.vcxproj -> D:\Users\IvanK\Desktop\C labs\6 pack\2\x64\Debug\2.exe

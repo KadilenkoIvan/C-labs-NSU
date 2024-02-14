@@ -1,0 +1,12 @@
+﻿  2.c
+D:\Users\IvanK\Desktop\C labs\6 pack\2\2.c(83,21): warning C4047: функция: "int" отличается по уровням косвенного обращения от "void *"
+D:\Users\IvanK\Desktop\C labs\6 pack\2\2.c(83,17): warning C4024: memset: различные типы для формального и фактического параметров 2
+D:\Users\IvanK\Desktop\C labs\6 pack\2\2.c(98,46): warning C4022: addAfter: несоответствие указателя для фактического параметра 2
+D:\Users\IvanK\Desktop\C labs\6 pack\2\2.c(102,47): warning C4022: addAfter: несоответствие указателя для фактического параметра 2
+D:\Users\IvanK\Desktop\C labs\6 pack\2\2.c(115,45): warning C4022: addAfter: несоответствие указателя для фактического параметра 2
+D:\Users\IvanK\Desktop\C labs\6 pack\2\2.c(119,48): warning C4022: addBefore: несоответствие указателя для фактического параметра 2
+D:\Users\IvanK\Desktop\C labs\6 pack\2\2.c(135,20): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "void *"
+D:\Users\IvanK\Desktop\C labs\6 pack\2\2.c(135,20): warning C4313: printf: конфликт "%d" в строке формата с аргументом 1 типа "void *"
+D:\Users\IvanK\Desktop\C labs\6 pack\2\2.c(147,25): warning C4047: функция: "int" отличается по уровням косвенного обращения от "void *"
+D:\Users\IvanK\Desktop\C labs\6 pack\2\2.c(147,21): warning C4024: memset: различные типы для формального и фактического параметров 2
+  2.vcxproj -> D:\Users\IvanK\Desktop\C labs\6 pack\2\x64\Debug\2.exe

@@ -1,0 +1,9 @@
+﻿  1.c
+D:\Users\IvanK\Desktop\C labs\7 pack\1\1.c(24,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\7 pack\1\1.c(35,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Users\IvanK\Desktop\C labs\7 pack\1\1.c(56,21): warning C4047: функция: "int" отличается по уровням косвенного обращения от "void *"
+D:\Users\IvanK\Desktop\C labs\7 pack\1\1.c(56,17): warning C4024: memset: различные типы для формального и фактического параметров 2
+D:\Users\IvanK\Desktop\C labs\7 pack\1\1.c(57,24): warning C4047: функция: "int" отличается по уровням косвенного обращения от "void *"
+D:\Users\IvanK\Desktop\C labs\7 pack\1\1.c(57,20): warning C4024: memset: различные типы для формального и фактического параметров 2
+D:\Users\IvanK\Desktop\C labs\7 pack\1\1.c(53,1): warning C4047: инициализация: "ListElem **" отличается по уровням косвенного обращения от "ListElem *"
+  1.vcxproj -> D:\Users\IvanK\Desktop\C labs\7 pack\1\x64\Debug\1.exe

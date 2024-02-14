@@ -1,0 +1,16 @@
+﻿  10.c
+D:\Users\IvanK\Desktop\C labs\4 pack\10\10.c(112,40): warning C4047: функция: "char **" отличается по уровням косвенного обращения от "char *(*)[20]"
+D:\Users\IvanK\Desktop\C labs\4 pack\10\10.c(112,23): warning C4024: print: различные типы для формального и фактического параметров 2
+D:\Users\IvanK\Desktop\C labs\4 pack\10\10.c(112,72): warning C4047: функция: "char **" отличается по уровням косвенного обращения от "char *(*)[20]"
+D:\Users\IvanK\Desktop\C labs\4 pack\10\10.c(112,42): warning C4024: print: различные типы для формального и фактического параметров 3
+D:\Users\IvanK\Desktop\C labs\4 pack\10\10.c(112,92): warning C4047: функция: "char **" отличается по уровням косвенного обращения от "char *(*)[10]"
+D:\Users\IvanK\Desktop\C labs\4 pack\10\10.c(112,74): warning C4024: print: различные типы для формального и фактического параметров 4
+D:\Users\IvanK\Desktop\C labs\4 pack\10\10.c(112,107): warning C4047: функция: "char **" отличается по уровням косвенного обращения от "char *(*)[11]"
+D:\Users\IvanK\Desktop\C labs\4 pack\10\10.c(112,94): warning C4024: print: различные типы для формального и фактического параметров 5
+D:\Users\IvanK\Desktop\C labs\4 pack\10\10.c(112,119): warning C4047: функция: "char **" отличается по уровням косвенного обращения от "char *(*)[4]"
+D:\Users\IvanK\Desktop\C labs\4 pack\10\10.c(112,109): warning C4024: print: различные типы для формального и фактического параметров 6
+D:\Users\IvanK\Desktop\C labs\4 pack\10\10.c(112,130): warning C4047: функция: "char **" отличается по уровням косвенного обращения от "char *(*)[4]"
+D:\Users\IvanK\Desktop\C labs\4 pack\10\10.c(112,121): warning C4024: print: различные типы для формального и фактического параметров 7
+D:\Users\IvanK\Desktop\C labs\4 pack\10\10.c(112,138): warning C4047: функция: "char **" отличается по уровням косвенного обращения от "char *(*)[4]"
+D:\Users\IvanK\Desktop\C labs\4 pack\10\10.c(112,132): warning C4024: print: различные типы для формального и фактического параметров 8
+  10.vcxproj -> D:\Users\IvanK\Desktop\C labs\4 pack\10\x64\Debug\10.exe

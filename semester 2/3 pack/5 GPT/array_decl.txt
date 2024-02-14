@@ -1,0 +1,45 @@
+#ifndef ARRAY_DECL_H
+#define ARRAY_DECL_H
+
+#include <stdlib.h>
+
+#define ARRAY_DEFAULT_CAPACITY 4
+
+#define ARRAY_MIN(a, b) (((a) < (b)) ? (a) : (b))
+
+#define ARRAY_MAX(a, b) (((a) > (b)) ? (a) : (b))
+
+#define ARRAY_RESERVE_FACTOR 2
+
+// define the array structure
+typedef struct NAME {
+    int n;      // number of elements in array
+    TYPE* arr;  // points to the array of elements
+    int capacity; // current capacity of array
+} NAME;
+
+// initializes members of the array structure for an empty array
+void NAME##_init(NAME* vec);
+
+// makes the array empty and frees its array buffer
+void NAME##_destroy(NAME* vec);
+
+// adds an element to the end of the array
+int NAME##_push(NAME* vec, TYPE value);
+
+// removes the last element from the array
+TYPE NAME##_pop(NAME* vec);
+
+// ensures that the array has enough storage for a given number of elements
+void NAME##_reserve(NAME* vec, int capacity);
+
+// changes the number of elements in the array
+void NAME##_resize(NAME* vec, int newCnt, TYPE fill);
+
+// inserts elements into the array
+void NAME##_insert(NAME* vec, int where, TYPE* arr, int num);
+
+// removes elements from the array
+void NAME##_erase(NAME* vec, int where, int num);
+
+#endif //

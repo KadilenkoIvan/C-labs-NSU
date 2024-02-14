@@ -1,0 +1,1 @@
+gcc main.c matrixsqr.c libopenblas.so -lpthread -o checked_solution -Wl,-rpath=.

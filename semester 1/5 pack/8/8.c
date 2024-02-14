@@ -1,0 +1,228 @@
+﻿#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <math.h>
+#include <malloc.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct LongNum_s
+{
+    int len; //сколько цифр в числе
+    int arr[10001]; //массив десятичных цифр числа
+} LongNum;
+
+int entry_in_longum_str(char* num, LongNum* Num)
+{
+    int n = strlen(num), count = 0;
+    for (int i = 0; num[n - i - 1] == '0'; ++i)
+    {
+        ++count;
+    }
+
+    n -= count;
+
+    for (int i = 0; i < n; ++i)
+    {
+        Num[0].arr[i] = (int)(num[n - i - 1] - '0');
+    }
+    Num[0].len = n;
+
+    return count;
+}
+
+int take_from_longnum(LongNum Num)
+{
+    int num = 0;
+    for (int i = 0; i <= Num.len; ++i)
+    {
+        num += Num.arr[i] * pow(10, i);
+    }
+    return num;
+}
+
+void entry_in_longum(int num, LongNum* Num)
+{
+    int i = 0, len = 0;
+    do
+    {
+        Num[0].arr[i] = num % 10;
+        num = num / 10;
+        ++len;
+        ++i;
+    } while (num != 0);
+    Num[0].len = len;
+}
+
+int longnum_lenth(LongNum Num)
+{
+    int i;
+    int n = sizeof(Num.arr) / sizeof(int) - 1;
+
+    for (i = 0; Num.arr[n - i] == 0; ++i);
+
+    return n - i + 1;
+}
+
+LongNum plus_sup(LongNum Num_c, LongNum Num_p)
+{
+    int n = max(Num_p.len, Num_c.len);
+    for (int i = 0; i < n; ++i)
+    {
+        Num_c.arr[i] += Num_p.arr[i];
+        if (Num_c.arr[i] >= 10)
+        {
+            Num_c.arr[i + 1] += 1;
+            Num_c.arr[i] -= 10;
+        }
+    }
+    if (Num_c.arr[Num_c.len] != 0)
+        Num_c.len++;
+    return Num_c;
+}
+
+LongNum minus(LongNum Num_c, LongNum Num_p)
+{
+    if (Num_c.arr[sizeof(Num_c.arr) / sizeof(int)] == 0 && Num_p.arr[sizeof(Num_c.arr) / sizeof(int)] == 1)
+        return plus_sup(Num_c, Num_p);
+}
+
+LongNum minus_sup(LongNum Num_c, LongNum Num_p)
+{
+    
+}
+
+int compare(LongNum Num_c, LongNum Num_p) //Num1 == Num2 = 0, Num1 > Num2 = 1, Num1 < Num2 = 2
+{
+    if (Num_c.len > Num_p.len /*|| (Num_c.arr[sizeof(Num_c.arr) / sizeof(int)] == 0 && Num_c.arr[sizeof(Num_c.arr) / sizeof(int)] == 1)*/)
+    {
+        return 1;
+    }
+    else if (Num_c.len < Num_p.len /*|| (Num_c.arr[sizeof(Num_c.arr) / sizeof(int)] == 1 && Num_c.arr[sizeof(Num_c.arr) / sizeof(int)] == 0)*/ )
+    {
+        return 2;
+    }
+
+    for (int i = 1; i <= Num_c.len; ++i)
+    {
+        if (Num_c.arr[Num_c.len - i] > Num_p.arr[Num_p.len - i])
+        {
+            return 1;
+        }
+        else if (Num_c.arr[Num_c.len - i] < Num_p.arr[Num_p.len - i])
+        {
+            return 2;
+        }
+    }
+    return 0;
+}
+
+LongNum multiply_ten(int tens, LongNum Num)
+{
+    if (tens == 0)
+        return Num;
+    for (int i = 0; i < Num.len; ++i)
+    {
+        Num.arr[Num.len - 1 + tens - i] = Num.arr[Num.len - 1 - i];
+        Num.arr[Num.len - 1 - i] = 0;
+    }
+    Num.len += tens;
+    return Num;
+}
+
+LongNum multiply(char* num1, char* num2)
+{
+    if (strlen(num1) > strlen(num2))
+        return multiply(num2, num1);
+    int otl = 0;
+    LongNum Num_c;
+    LongNum Num_p;
+
+    if (num1[0] == '0' || num2[0] == '0')
+    {
+        Num_p.len = 0;
+        return Num_p;
+    }
+
+    memset(Num_c.arr, 0, 10000);
+    memset(Num_p.arr, 0, 10000);
+
+    int ten1 = entry_in_longum_str(num1, &Num_c);
+    int ten2 = entry_in_longum_str(num2, &Num_p);
+    ten1 += ten2;
+
+    LongNum Buf;
+    Buf.len = 1;
+    memset(Buf.arr, 0, sizeof(int) * 10000);
+
+    LongNum Current;
+    Current.len = 0;
+    memset(Current.arr, 0, sizeof(int) * 10000);
+
+    LongNum Current_i;
+    Current_i.len = 0;
+    memset(Current_i.arr, 0, sizeof(int) * 10000);
+
+    int buf = 1;
+    int n = 0;
+
+    for (int i = 0; i < Num_p.len; ++i)
+    {
+        memset(Current.arr, 0, sizeof(int) * 10000);
+        Current.len = 0;
+        for (int j = 0; j < Num_c.len; ++j)
+        {
+            buf = Num_c.arr[j] * Num_p.arr[i];
+            entry_in_longum(buf, &Buf);
+
+            if (buf == 0)
+            {
+                Current.len++;
+                continue;
+            }
+
+            for (int p = j; p < Buf.len + j; ++p)
+            {
+                Current.arr[p] += Buf.arr[p - j];
+                Current.len++;
+                if (Current.arr[p] >= 10)
+                {
+                    Current.arr[p + 1] += 1;
+                    Current.arr[p] -= 10;
+                }
+            }
+        }
+
+        for (int p = i; p < Current.len + i; ++p)
+        {
+            Current_i.arr[p] += Current.arr[p - i];
+            if (Current_i.arr[p] >= 10)
+            {
+                Current_i.arr[p + 1] += 1;
+                Current_i.arr[p] -= 10;
+            }
+        }
+    }
+
+    Current_i.len = longnum_lenth(Current_i);
+    return multiply_ten(ten1, Current_i);
+}
+
+void print(LongNum Num)
+{
+    if (Num.len <= 0)
+        printf("%d", 0);
+    for (int i = 1; i <= Num.len; ++i)
+    {
+        printf("%d", Num.arr[Num.len - i]);
+    }
+    printf("\n");
+}
+
+LongNum arr[1001];
+
+int main()
+{
+    printf("%d", sizeof(arr[0].arr));
+}
+
+//sizeof(arr[i].arr)/4 -> индекс в котором хранится знак числа, 1 = '-', 0 = '+'
